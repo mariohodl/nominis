@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backy{
+    background-image: url(./img/mobile-background.png);
+    background-size: cover;
+}
+
+@media screen and (min-width:1100px) {
+    .backy{
+        background-image: url(./img/desktop-background.png) !important;
+    }
+}
+
+@media screen and (min-width:413px) {
+    .intro-box{
+        margin-bottom: 200px !important;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .intro-box{
+        margin-bottom: 300px !important;
+    }
+}
+
+@media screen and (min-width:1023px) {
+    .intro-box{
+        margin-bottom: 600px !important;
+    }
+}
+
+@media screen and (min-width:1120px) {
+    .intro-box{
+        margin-bottom: 300px !important;
+    }
+}
